@@ -213,7 +213,7 @@ class CustomJSONIngestor:
         
         return total_uploaded
 
-def test_small_subset(json_file: str = "Data/new_cleaned_data.json", max_records: int = 5):
+def test_small_subset(json_file: str = "Data/new_cleaned_data.json", max_records: int = None):
     """Test ingestion with small subset"""
     
     print("Testing JSON ingestion with small subset...")
