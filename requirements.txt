@@ -7,3 +7,7 @@ pandas
 numpy
 uuid
 typing
+
+streamlit
+openai
+pathlib
